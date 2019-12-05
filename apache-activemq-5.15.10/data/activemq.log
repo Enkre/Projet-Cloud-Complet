@@ -1,0 +1,183 @@
+2019-11-08 15:27:34,160 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@61001b64: startup date [Fri Nov 08 15:27:34 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-08 15:27:34,949 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:35,023 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-08 15:27:35,148 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-58995-1573223255031-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:35,164 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 15:27:35,165 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 15:27:35,170 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 15:27:35,172 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 15:27:35,175 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 15:27:35,177 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 15:27:35,181 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 15:27:35,182 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 15:27:35,188 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 15:27:35,260 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 15:27:35,323 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2116b68b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-08 15:27:35,402 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-08 15:27:35,403 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 15:27:35,404 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-58995-1573223255031-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:35,405 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:35,408 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 12438 mb of usable space. - resetting to maximum available disk space: 12438 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:35,410 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 12438 mb of usable space. - resetting to maximum available disk space: 12438 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-08 15:27:36,092 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-08 15:27:36,093 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-08 16:31:45,030 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 08 16:31:45 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-08 16:31:46,436 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:46,545 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-08 16:31:46,557 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-08 16:31:46,562 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-08 16:31:46,734 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-08 16:31:46,898 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-59533-1573227106765-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:46,995 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 16:31:46,996 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 16:31:47,004 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 16:31:47,006 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 16:31:47,014 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 16:31:47,016 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 16:31:47,025 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-08 16:31:47,027 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 16:31:47,059 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 16:31:47,202 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-08 16:31:47,353 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@31e04b13{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-08 16:31:47,499 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-08 16:31:47,501 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-08 16:31:47,512 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-59533-1573227106765-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:47,515 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:47,528 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 12724 mb of usable space. - resetting to maximum available disk space: 12724 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:47,534 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 12724 mb of usable space. - resetting to maximum available disk space: 12724 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-08 16:31:48,829 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-08 16:31:48,830 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-08 16:54:39,796 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp835631769-76
+2019-11-08 16:56:18,614 | WARN  | Transport Connection to: tcp://127.0.0.1:59633 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:59633@61616
+2019-11-29 11:55:33,048 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 29 11:55:33 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 11:55:34,361 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:34,735 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 11:55:34,746 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 11:55:34,752 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 11:55:34,803 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 11:55:34,964 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-64246-1575024934826-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:35,074 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:55:35,075 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:55:35,081 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:55:35,082 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:55:35,087 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:55:35,090 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:55:35,096 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 11:55:35,111 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:55:35,123 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 11:55:35,243 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 11:55:35,378 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@552ed807{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 11:55:35,481 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 11:55:35,482 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 11:55:35,483 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-64246-1575024934826-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:35,484 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:35,488 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 13707 mb of usable space. - resetting to maximum available disk space: 13707 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:35,492 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 13707 mb of usable space. - resetting to maximum available disk space: 13707 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 11:55:36,880 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 11:55:36,881 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 13:10:26,066 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp963573938-45
+2019-11-29 14:23:56,954 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 29 14:23:56 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 14:23:57,769 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:57,825 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 14:23:57,831 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 14:23:57,837 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 14:23:57,861 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 14:23:57,989 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-65408-1575033837871-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:58,044 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 14:23:58,046 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 14:23:58,049 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 14:23:58,052 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 14:23:58,055 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 14:23:58,057 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 14:23:58,061 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 14:23:58,072 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 14:23:58,081 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 14:23:58,187 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 14:23:58,312 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@552ed807{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 14:23:58,403 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 14:23:58,404 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 14:23:58,405 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-65408-1575033837871-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:58,406 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:58,408 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 13523 mb of usable space. - resetting to maximum available disk space: 13523 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:58,411 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 13523 mb of usable space. - resetting to maximum available disk space: 13523 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 14:23:59,150 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 14:23:59,152 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 15:17:24,290 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 29 15:17:24 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 15:17:25,773 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:25,868 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 15:17:25,880 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 15:17:25,892 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 15:17:25,938 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 15:17:26,109 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-50227-1575037045965-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:26,228 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:17:26,230 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:17:26,237 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:17:26,240 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:17:26,246 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:17:26,247 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:17:26,274 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:17:26,276 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:17:26,293 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 15:17:26,454 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 15:17:26,610 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@552ed807{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 15:17:26,723 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 15:17:26,724 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:17:26,725 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-50227-1575037045965-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:26,726 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:26,731 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 8171 mb of usable space. - resetting to maximum available disk space: 8171 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:26,736 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 8171 mb of usable space. - resetting to maximum available disk space: 8171 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:17:28,169 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 15:20:34,253 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 15:21:04,152 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 29 15:21:04 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 15:21:05,234 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:05,296 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 15:21:05,305 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 15:21:05,311 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 15:21:05,349 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 15:21:05,496 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-50363-1575037265366-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:05,583 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:21:05,585 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:21:05,591 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:21:05,594 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:21:05,599 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:21:05,601 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:21:05,607 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 15:21:05,627 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:21:05,635 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 15:21:05,711 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 15:21:05,804 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@552ed807{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 15:21:05,879 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 15:21:05,880 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 15:21:05,881 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-50363-1575037265366-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:05,882 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:05,887 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 8167 mb of usable space. - resetting to maximum available disk space: 8167 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:05,891 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 8167 mb of usable space. - resetting to maximum available disk space: 8167 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 15:21:06,906 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 15:21:06,908 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 16:59:56,485 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@54a7079e: startup date [Fri Nov 29 16:59:56 CET 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2019-11-29 16:59:57,478 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:57,540 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 16:59:57,549 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2019-11-29 16:59:57,550 | INFO  | Page File: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2019-11-29 16:59:57,585 | INFO  | PListStore:[C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2019-11-29 16:59:57,725 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-51207-1575043197604-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:57,795 | INFO  | Listening for connections at: tcp://DESKTOP-PQACNHD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 16:59:57,796 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 16:59:57,800 | INFO  | Listening for connections at: amqp://DESKTOP-PQACNHD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 16:59:57,801 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 16:59:57,805 | INFO  | Listening for connections at: stomp://DESKTOP-PQACNHD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 16:59:57,807 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 16:59:57,812 | INFO  | Listening for connections at: mqtt://DESKTOP-PQACNHD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2019-11-29 16:59:57,824 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 16:59:57,832 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 16:59:57,927 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2019-11-29 16:59:58,034 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@552ed807{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2019-11-29 16:59:58,119 | INFO  | Listening for connections at ws://DESKTOP-PQACNHD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2019-11-29 16:59:58,120 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2019-11-29 16:59:58,121 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-PQACNHD-51207-1575043197604-0:1) started | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:58,121 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:58,124 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data\kahadb only has 7577 mb of usable space. - resetting to maximum available disk space: 7577 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:58,127 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Gustave\Desktop\M1\Cloud\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\..\data only has 7577 mb of usable space. - resetting to maximum available disk space: 7577 mb | org.apache.activemq.broker.BrokerService | main
+2019-11-29 16:59:59,015 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 16:59:59,015 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2019-11-29 17:00:22,208 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp963573938-49
